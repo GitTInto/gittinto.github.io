@@ -263,37 +263,43 @@
 				</section>
 
 				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Feel free to message me, I will gat back as soon as I can.</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
+				<div id="contact">
+					<h2>Get in Touch</h2>
+					<p> Feel free to send me a message and I'll get back to you as soon as possible!</p>
+
+					<div id="contact-form">
+						<form action="https://formspree.io/mleawdlb" method="POST">
+							<div class="row gtr-uniform gtr-50">
+								<div class = "col-6 col-12-xsmall">
+									<input type="text" placeholder="Subject" name="_subject"/>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="_replyto" placeholder="Your email" required>
+								</div>
+								<div class="col-12">
+									<textarea name="message" placeholder="Type your message" required></textarea>
+								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										<!-- 1234 Somewhere Rd.<br /> -->
-										Phoenix, AZ<br />
-										United States
-									</li>
+						</form>
+					</div>
+				</div>
+				<div class="col-4 col-12-small">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+							Phoenix AZ<br/>
+							United States
+						</li>
 									<li>
 										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
 										602-207-8959
 									</li>
 									<!-- <li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
+										<a href="#">mjhotaling@my365.bellevue.edu</a>
 									</li> -->
 								</ul>
 							</div>
