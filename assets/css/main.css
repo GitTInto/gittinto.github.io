@@ -2041,11 +2041,15 @@ input, select, textarea {
 
 /* Image */
 
+
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+		/* height: 100px;
+		width: 200px; */
 	}
 
 		.image:before {
